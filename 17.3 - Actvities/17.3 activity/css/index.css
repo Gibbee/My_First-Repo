@@ -16,15 +16,14 @@ body {
 }
 
 nav ul {
-    background-color: #66BBC4;
+    display: inline-block;
+    display: inline-flex;
     list-style-type: none;
-    text-align: left;
     margin: 0;
     padding: 0;
 }
 
 nav li {
-    display: inline-block;
     font-size: 18px;
     padding: 30px;
     border-right: 2px solid white;
@@ -45,4 +44,11 @@ li a {
     font-weight: 600;
 }
 
-.profile {}
+.profile {
+    border-right: 1px solid grey;
+}
+
+.profile img {
+    width: 200px;
+    margin: 0 auto;
+}
